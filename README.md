@@ -1,4 +1,4 @@
-## **Find the reports design wise :**
+## **Find the final reports of stage 2 design wise here :**
 
 [level1_design1](https://github.com/vyomasystems-lab/challenges-krunalbadlani/blob/master/level1_design1_report.md)
 
