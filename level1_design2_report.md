@@ -124,10 +124,11 @@ The following error is seen:
 Output mismatches for the above inputs proving that there are design bugs
 
 ### **Design Bugs**
+---
 Based on the above test output and analysing the design,
 we see the following
 
----
+
 Bugs :-
 ```verilog
 module seq_detect_1011(seq_seen, inp_bit, reset, clk);
