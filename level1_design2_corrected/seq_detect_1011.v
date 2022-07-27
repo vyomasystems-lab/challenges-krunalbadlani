@@ -9,7 +9,7 @@ module seq_detect_1011(seq_seen, inp_bit, reset, clk);
 
   parameter IDLE = 0,
             SEQ_1 = 1, 
-            SEQ_11 = 2,
+            SEQ_11 = 2, //change
             SEQ_10  = 3,
             SEQ_101 = 4,
             SEQ_1011 = 5;
