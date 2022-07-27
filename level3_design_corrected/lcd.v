@@ -35,22 +35,7 @@ data[9]  <= 8'h6c; ///l
 data[10] <= 8'h6f; /// o
 data[11] <= 8'h67; ///g
 end
-/*initial begin
-$dumpfile("lcd.vcd");
-$dumpvars(0,lcd);
-end
-*/ 
-/*always@(posedge clk)
-begin
-if(count < 10)  ///clk = 100 MHz count = 1000000
-   count <= count + 1;
-else
-   begin
-   count <= 0;
-   ent <= ~ent;
-   end
-end*/
- 
+
  
 always@(posedge clk)
 begin
