@@ -82,6 +82,7 @@ module seq_detect_1011(seq_seen, inp_bit, reset, clk);
         else //change
           next_state = IDLE;
       end
+      default: next_state = IDLE; //change
      
     endcase
   end
